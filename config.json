@@ -1,0 +1,19 @@
+{
+  "movie_name": "Avengers: Doomsday",
+  "event_code": "ET00526306",
+  "city_slug": "chennai",
+  "movie_slug": "avengers-doomsday",
+  "dates": ["20261217", "20261218", "20261219", "20261220", "20261221", "20261222",
+            "20261223", "20261224", "20261225", "20261226", "20261227"],
+  "weekend_dates": ["20261218", "20261219", "20261220", "20261225", "20261226", "20261227"],
+  "theatres": {
+    "Palazzo": ["palazzo"],
+    "Phoenix Velachery": ["phoenix"],
+    "Sathyam": ["sathyam"],
+    "Escape (Express Avenue)": ["escape", "express avenue"],
+    "VR Mall": ["vr chennai", "vr mall"]
+  },
+  "night_from": "19:00",
+  "include_after_midnight_until": "03:00",
+  "alert_on_any_theatre": false
+}
