@@ -196,12 +196,20 @@ def check_once():
     started = now_ist()
     print(f"[{started:%d %b %H:%M:%S}] checking {len(CONFIG['dates'])} dates")
 
-    all_shows, ok_dates = [], 0
+    # Dates not yet on sale make BookMyShow fall back to the first open date's
+    # listings, so de-duplicate and note which dates really answered for themselves.
+    all_shows, ok_dates, seen, on_sale = [], 0, set(), set()
     for i, d in enumerate(CONFIG["dates"]):
         data = fetch_date(d)
         if data is not None:
             ok_dates += 1
-            all_shows.extend(parse_shows(data, d))
+            for s in parse_shows(data, d):
+                if s["date"] == d:
+                    on_sale.add(d)
+                key = (s["venue_code"], s["session"], s["date"], s["time"])
+                if key not in seen:
+                    seen.add(key)
+                    all_shows.append(s)
         if i < len(CONFIG["dates"]) - 1:
             time.sleep(random.uniform(0.8, 1.8))
 
@@ -267,11 +275,11 @@ def check_once():
     else:
         print(f"  {len(watched)} watched night shows, {sum(1 for s in watched if s['open'])} with seats, nothing new")
 
-    write_status(started, watched, reachable=True, fails=0)
+    write_status(started, watched, reachable=True, fails=0, on_sale=sorted(on_sale))
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
 
-def write_status(checked_at, watched, reachable, fails):
+def write_status(checked_at, watched, reachable, fails, on_sale=None):
     STATUS_FILE.parent.mkdir(exist_ok=True)
     rows = [{
         "theatre": s["label"], "venue": s["venue"], "date": s["date"], "day": pretty_date(s["date"]),
@@ -283,6 +291,7 @@ def write_status(checked_at, watched, reachable, fails):
     STATUS_FILE.write_text(json.dumps({
         "movie": CONFIG["movie_name"], "checked_at": checked_at.isoformat(),
         "reachable": reachable, "consecutive_failures": fails,
+        "dates_on_sale": on_sale or [],
         "dates": CONFIG["dates"], "weekend_dates": CONFIG["weekend_dates"],
         "theatres": list(CONFIG["theatres"].keys()), "shows": rows,
     }, indent=1))

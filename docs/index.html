@@ -122,6 +122,12 @@ async function load() {
     b.appendChild(el("small", null, "Checked " + ago(s.checked_at) + (stale ? " · watcher may be paused" : "")));
   }
 
+  const sale = s.dates_on_sale || [];
+  if (s.reachable && sale.length) {
+    const fmt = (d) => new Date(d.slice(0,4) + "-" + d.slice(4,6) + "-" + d.slice(6)).toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+    b.appendChild(el("small", null, "On sale: " + fmt(sale[0]) + (sale.length > 1 ? "–" + fmt(sale[sale.length - 1]) : "") + " · later dates not open yet"));
+  }
+
   const weekend = new Set(s.weekend_dates || []);
   const byDate = {};
   for (const x of shows) (byDate[x.date] = byDate[x.date] || []).push(x);
