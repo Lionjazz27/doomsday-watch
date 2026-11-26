@@ -1,11 +1,5 @@
 {
-  "alerted": {
-    "PCAN|48539|20261218": true,
-    "PVSR|29904|20261220": true,
-    "PVSR|29905|20261220": true,
-    "PVES|36568|20261220": true,
-    "PVPZ|41310|20261220": true
-  },
+  "alerted": {},
   "fails": 0,
   "warned": false
 }
