@@ -1,6 +1,6 @@
 {
  "movie": "Avengers: Doomsday",
- "checked_at": "2026-11-27T15:14:53.853612+05:30",
+ "checked_at": "2026-11-28T00:42:45.628239+05:30",
  "reachable": true,
  "consecutive_failures": 0,
  "dates_on_sale": [
@@ -175,7 +175,13 @@
    "day": "Fri 18 Dec",
    "time": "11:55 PM",
    "format": "",
-   "open": [],
+   "open": [
+    {
+     "name": "BUDGET",
+     "price": "111.74",
+     "label": "Almost full"
+    }
+   ],
    "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261218"
   },
   {
@@ -245,7 +251,13 @@
    "day": "Sat 19 Dec",
    "time": "07:50 PM",
    "format": "",
-   "open": [],
+   "open": [
+    {
+     "name": "BUDGET",
+     "price": "111.74",
+     "label": "Almost full"
+    }
+   ],
    "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
   },
   {
