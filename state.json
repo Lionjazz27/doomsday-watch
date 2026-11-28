@@ -1,11 +1,9 @@
 {
   "alerted": {
-    "PVSR|29886|20261217": true,
-    "PVSR|29899|20261219": true,
-    "PVES|36561|20261219": true,
+    "PVES|36567|20261220": true,
+    "PVES|36568|20261220": true,
     "PVSR|29904|20261220": true,
-    "PVSR|29905|20261220": true,
-    "PVES|36568|20261220": true
+    "PVSR|29905|20261220": true
   },
   "fails": 0,
   "warned": false
