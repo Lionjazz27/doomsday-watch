@@ -1,11 +1,11 @@
 {
  "movie": "Avengers: Doomsday",
- "checked_at": "2026-11-28T15:40:02.287790+05:30",
+ "checked_at": "2026-11-28T23:44:25.192177+05:30",
  "reachable": true,
  "consecutive_failures": 0,
  "dates_on_sale": [
+  "20261217",
   "20261218",
-  "20261219",
   "20261220"
  ],
  "dates": [
@@ -240,117 +240,11 @@
   {
    "theatre": "Escape (Express Avenue)",
    "venue": "HDFC Millennia PVR: Escape-Express Avenue Mall",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "07:50 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Escape (Express Avenue)",
-   "venue": "HDFC Millennia PVR: Escape-Express Avenue Mall",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "11:15 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Palazzo",
-   "venue": "PVR: Palazzo, The Nexus Vijaya Mall",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "08:30 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Palazzo",
-   "venue": "PVR: Palazzo, The Nexus Vijaya Mall",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "11:55 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Phoenix Velachery",
-   "venue": "INOX: LUXE Phoenix Market City, Velachery",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "07:55 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Phoenix Velachery",
-   "venue": "INOX: LUXE Phoenix Market City, Velachery",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "11:20 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Sathyam",
-   "venue": "PVR: Sathyam, Royapettah",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "07:55 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Sathyam",
-   "venue": "PVR: Sathyam, Royapettah",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "11:20 PM",
-   "format": "",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "VR Mall",
-   "venue": "PVR: VR Chennai, Anna Nagar",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "08:05 PM",
-   "format": "PXL",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "VR Mall",
-   "venue": "PVR: VR Chennai, Anna Nagar",
-   "date": "20261219",
-   "day": "Sat 19 Dec",
-   "time": "11:35 PM",
-   "format": "PXL",
-   "open": [],
-   "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261219"
-  },
-  {
-   "theatre": "Escape (Express Avenue)",
-   "venue": "HDFC Millennia PVR: Escape-Express Avenue Mall",
    "date": "20261220",
    "day": "Sun 20 Dec",
    "time": "07:50 PM",
    "format": "",
-   "open": [
-    {
-     "name": "BUDGET",
-     "price": "111.74",
-     "label": "Almost full"
-    }
-   ],
+   "open": [],
    "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261220"
   },
   {
@@ -416,18 +310,7 @@
    "day": "Sun 20 Dec",
    "time": "07:55 PM",
    "format": "",
-   "open": [
-    {
-     "name": "ECONOMY",
-     "price": "250.00",
-     "label": "Almost full"
-    },
-    {
-     "name": "BUDGET",
-     "price": "121.74",
-     "label": "Almost full"
-    }
-   ],
+   "open": [],
    "url": "https://in.bookmyshow.com/movies/chennai/avengers-doomsday/buytickets/ET00526306/20261220"
   },
   {
